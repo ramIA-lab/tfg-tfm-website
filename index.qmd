@@ -1,0 +1,112 @@
+---
+title: "Trabajo Final de grado (TFG)/Trabajo Final de Máster (TFM)"
+---
+
+Bienvenidos a la página oficial de propuestas de Trabajo de Fin de Grado (TFG) y Trabajo de Fin de Máster (TFM) de los profesores **Dante Conti** y **Sergi Ramírez**, miembros del centro de investigación IDEAI-UPC (Intelligent Data Science and Artificial Intelligence). Aquí encontrarás una selección de temas disponibles para desarrollar tu proyecto final, vinculados a las líneas de investigación actuales del centro, y orientados a resolver retos reales con impacto académico, científico y social.
+
+Si estás interesado/a en optar a alguna de las propuestas, deberás rellenar el formulario que se encuentra al final de esta página. Este paso es imprescindible para que podamos evaluar tu candidatura y asignar el proyecto que mejor se adapte a tu perfil y motivaciones.
+
+<br>
+
+```{=html}
+<style>
+  form {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    background-color: #e0f0ff; /* azul claro suave para el recuadro */
+    box-sizing: border-box;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    background-color: #cce6ff; /* un azul claro un poco más intenso */
+    border: 1px solid #99ccff;
+    border-radius: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-top: 4px;
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 12px;
+    width: 100%;
+    background-color: #3399ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #2673cc;
+  }
+
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+
+  #form-response {
+    margin-top: 12px;
+    font-weight: bold;
+    text-align: center;
+  }
+</style>
+```
+
+<form id="tfg-form">
+
+<label for="name">Nombre:</label> <input type="text" id="name" name="name" required>
+
+<label for="email">Correo electrónico:</label> <input type="email" id="email" name="email" required>
+
+<label for="carrera">Estudios:</label> <select id="carrera" name="carrera" required> <option value="">Selecciona tus estudios</option> <option value="GEI">Grado en Ingenieria Informática (GEI)</option> <option value="GEST">Grado en Estadística (GEST)</option> <option value="GEST-GECO">Dobre grado en Estadística - Economia (GEST-ECO)</option> <option value="GCD">Grado en Ciencia de Datos (GCED)</option> <option value="GIA">Grado en Inteligencia Artificial (GIA)</option> <option value="MAI">Master en Inteligencia Artificial (MAI)</option> <option value="MEI">Master en ingenieria informática (MEI)</option> <option value="Otra">Otra</option> </select>
+
+<label for="project">Propuesta de interés:</label> <input type="text" id="project" name="project" required>
+
+<label for="motivation">Motivación:</label>
+
+```{=html}
+<textarea id="motivation" name="motivation" rows="4" required></textarea>
+```
+
+<label for="direccion">¿Dispones de director? (poner el nombre en caso de afirmativo o NO en caso de negativo)</label>
+
+```{=html}
+<textarea id="direccion" name="direccion" rows="4" required></textarea>
+```
+
+<button type="submit">
+
+Enviar
+
+</button>
+
+</form>
+
+::: {#form-response}
+:::
+
+```{=html}
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbywrCbqOGTgazvZVuoyYbZyKH14MPoTJJbYFUixCZHGj__79lmAeCVjlPmHUysC6poTfA/exec';
+  const form = document.getElementById('tfg-form');
+  const responseDiv = document.getElementById('form-response');
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    const formData = new FormData(form);
+    fetch(scriptURL, { method: 'POST', body: formData })
+      .then(response => responseDiv.innerHTML = "✅ ¡Formulario enviado con éxito!")
+      .catch(error => responseDiv.innerHTML = "❌ Error al enviar el formulario.");
+  });
+</script>
+```

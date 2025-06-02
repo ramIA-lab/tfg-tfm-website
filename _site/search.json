@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Trabajo Final de grado (TFG)/Trabajo Final de Máster (TFM)",
+    "section": "",
+    "text": "Bienvenidos a la página oficial de propuestas de Trabajo de Fin de Grado (TFG) y Trabajo de Fin de Máster (TFM) de los profesores Dante Conti y Sergi Ramírez, miembros del centro de investigación IDEAI-UPC (Intelligent Data Science and Artificial Intelligence). Aquí encontrarás una selección de temas disponibles para desarrollar tu proyecto final, vinculados a las líneas de investigación actuales del centro, y orientados a resolver retos reales con impacto académico, científico y social.\nSi estás interesado/a en optar a alguna de las propuestas, deberás rellenar el formulario que se encuentra al final de esta página. Este paso es imprescindible para que podamos evaluar tu candidatura y asignar el proyecto que mejor se adapte a tu perfil y motivaciones.\n\n\n\nNombre: \nCorreo electrónico: \nEstudios:  Selecciona tus estudios Grado en Ingenieria Informática (GEI) Grado en Estadística (GEST) Dobre grado en Estadística - Economia (GEST-ECO) Grado en Ciencia de Datos (GCED) Grado en Inteligencia Artificial (GIA) Master en Inteligencia Artificial (MAI) Master en ingenieria informática (MEI) Otra \nPropuesta de interés: \nMotivación:\n\n¿Dispones de director? (poner el nombre en caso de afirmativo o NO en caso de negativo)\n\n\nEnviar"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre Nosotros",
+    "section": "",
+    "text": "Aquí puedes encontrar información sobre los profesores que dirigen propuestas de TFG y TFM.\n\n\n\n\n  \n    Dr. Dante Conti\n    Profesor en el departamento IDEAI-UPC. Su investigación se centra en inteligencia artificial aplicada a la educación, sistemas inteligentes y análisis de datos complejos.\n  \n  \n    \n  \n\n\n\n\n  \n  \n\n\n\n\n\n  \n    \n  \n  \n    Sergi Ramírez Mitjans\n    Graduado en Estadística por la UB – UPC amplió los conocimiento realizando un Posgrado en Ciencia de los Datos y Big data por la UB y posteriormente un máster en Data Science UOC. Consultor tecnológico en AIS, analista de datos en CCMA (TV3), fundación Lucha contra el Sida (FLSida). Profesor de universidades como la UB, la UPC y la UOC. Con vinculación con el mundo deportivo y la análisis de datos deportivos (FCBQ, FIBA). Actualmente es Doctorando del programa de Inteligencia Artificial de la Universitat Politècnica de Catalunya (UPC). Investigador al grupo de investigación IDEAI (Intelligent Fecha Science and Artificial Inteligence) de la UPC. Su pasión es la aplicación de la Inteligencia Artificial (IA) sobretodo en temas de computer visión y machine learning."
+  },
+  {
+    "objectID": "defendidos.html",
+    "href": "defendidos.html",
+    "title": "Trabajos defendidos",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\nPost description\n\n\n\n\n\nMay 22, 2021\n\n\nFizz McPhee\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "propuestas.html",
+    "href": "propuestas.html",
+    "title": "Propuestas de trabajos de final de estudios",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJun 2, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 30, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\nPost description\n\n\n\n\n\nMay 22, 2021\n\n\nFizz McPhee\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "propuestas/post-with-code/index.html",
+    "href": "propuestas/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "propuestas/welcome/index.html",
+    "href": "propuestas/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "index.qmd": {
+    "index.html": "a7469f2e"
+  },
+  "about.qmd": {
+    "about.html": "246497cb"
+  },
+  "defendidos.qmd": {
+    "defendidos.html": "71e0601c"
+  },
+  "defendidos/post1.qmd": {
+    "post1.html": "2ec2c337"
+  },
+  "propuestas.qmd": {
+    "propuestas.html": "2cbb5852"
+  },
+  "propuestas/post1.qmd": {
+    "post1.html": "072b574f"
+  },
+  "propuestas/post-with-code/index.qmd": {
+    "index.html": "aa184819"
+  },
+  "propuestas/welcome/index.qmd": {
+    "index.html": "944a00a7"
+  }
+}

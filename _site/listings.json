@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/defendidos.html",
+    "items": [
+      "/defendidos/post1.html"
+    ]
+  },
+  {
+    "listing": "/propuestas.html",
+    "items": [
+      "/propuestas/post-with-code/index.html",
+      "/propuestas/welcome/index.html",
+      "/propuestas/post1.html"
+    ]
+  }
+]

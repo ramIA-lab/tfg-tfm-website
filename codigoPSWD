@@ -1,0 +1,14 @@
+<!--
+<script>
+  const username = "alumno";
+  const password = "ideai2025";
+
+  const inputUser = prompt("Usuario:");
+  const inputPass = prompt("Contraseña:");
+
+  if (inputUser !== username || inputPass !== password) {
+    alert("Acceso denegado");
+    window.location.href = "https://www.upc.edu";
+  }
+</script>
+--!>
