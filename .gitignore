@@ -1,3 +1,13 @@
 .Rhistory
-*.Rproj.user
-/.quarto/
+*.Rproj.user/
+.quarto/
+about_files/
+defendidos/
+images/
+propuestas/
+renv/
+*.qmd
+tfg_web.Rproj
+styles.css
+codigoPSWD
+
