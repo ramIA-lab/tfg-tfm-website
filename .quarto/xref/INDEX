@@ -22,5 +22,23 @@
   },
   "propuestas/welcome/index.qmd": {
     "index.html": "944a00a7"
+  },
+  "propuestas/SportAnalytics/sportAnalytics1.qmd": {
+    "sportAnalytics1.html": "50f61508"
+  },
+  "propuestas/ControlCalidad/sportAnalytics1.qmd": {
+    "sportAnalytics1.html": "32b15e23"
+  },
+  "propuestas/Financia_Contabilidad_VentaslAnalytics/sportAnalytics1.qmd": {
+    "sportAnalytics1.html": "b54c82b0"
+  },
+  "propuestas/Marketing_RRHHAnalytics/marketingAnalytics1.qmd": {
+    "marketingAnalytics1.html": "995aeec9"
+  },
+  "propuestas/SuppyChain/sportAnalytics1.qmd": {
+    "sportAnalytics1.html": "92478ca8"
+  },
+  "propuestas/Financial_Contabilidad_VentaslAnalytics/financial1.qmd": {
+    "financial1.html": "a9749e56"
   }
 }

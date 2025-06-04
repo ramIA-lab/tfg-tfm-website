@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Sin Asignar">
+<meta name="dcterms.date" content="2025-06-04">
+<meta name="description" content="El objetivo de este trabajo es desarrollar un modelo de aprendizaje por refuerzo (AR) para optimizar las decisiones tácticas de un equipo durante un partido, con un enfoque en deportes como el fútbol o baloncesto. El sistema aprendería a partir de datos históricos de partidos y ajustaría las decisiones de ataque o defensa en función del contexto del partido: posición en el campo, tiempo restante, acciones del equipo contrario, etc.">
 
-<title>Propuestas de trabajos de final de estudios – TFG / TFM</title>
+<title>Sport Analytics: Optimización de estrategias de equipo en deportes – TFG / TFM</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-274c3d255ff4b40ad85bc0e900837b3c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-274c3d255ff4b40ad85bc0e900837b3c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,67 +69,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -138,7 +81,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">TFG / TFM</span>
     </a>
   </div>
@@ -149,19 +92,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./propuestas.html" aria-current="page"> 
+    <a class="nav-link" href="../../propuestas.html"> 
 <span class="menu-text">Propuestas</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./defendidos.html"> 
+    <a class="nav-link" href="../../defendidos.html"> 
 <span class="menu-text">Trabajos defendidos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">Sobre nosotros</span></a>
   </li>  
 </ul>
@@ -176,21 +119,50 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="RmluYW5jaWFs">Financial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SUE=">IA <span class="quarto-category-count">(5)</span></div><div class="category" data-category="U3BvcnRz">Sports <span class="quarto-category-count">(3)</span></div><div class="category" data-category="YXByZW5kaXphamUlMjBwb3IlMjByZWZ1ZXJ6bw==">aprendizaje por refuerzo <span class="quarto-category-count">(5)</span></div><div class="category" data-category="bWFya2V0aW5n">marketing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="b3B0aW1pemFjaW9u">optimizacion <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#metodología" id="toc-metodología" class="nav-link active" data-scroll-target="#metodología">Metodología</a></li>
+  <li><a href="#bbdd-necesarias" id="toc-bbdd-necesarias" class="nav-link" data-scroll-target="#bbdd-necesarias">BBDD necesarias</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Propuestas de trabajos de final de estudios</h1>
-</div>
+<h1 class="title">Sport Analytics: Optimización de estrategias de equipo en deportes</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Sports</div>
+    <div class="quarto-category">IA</div>
+    <div class="quarto-category">aprendizaje por refuerzo</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    El objetivo de este trabajo es desarrollar un modelo de aprendizaje por refuerzo (AR) para optimizar las decisiones tácticas de un equipo durante un partido, con un enfoque en deportes como el fútbol o baloncesto. El sistema aprendería a partir de datos históricos de partidos y ajustaría las decisiones de ataque o defensa en función del contexto del partido: posición en el campo, tiempo restante, acciones del equipo contrario, etc.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sin Asignar </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 4, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -200,234 +172,29 @@ window.Quarto = {
 </header>
 
 
-<script>
-(function(){
-  const _0x3eaf=["\x61\x6C\x75\x6D\x6E\x6F","\x69\x64\x65\x61\x69\x32\x30\x32\x35","\x61\x75\x74\x68\x65\x6E\x74\x69\x63\x61\x74\x65\x64","\x6C\x6F\x63\x61\x6C\x53\x74\x6F\x72\x61\x67\x65","\x55\x73\x65\x72\x3A","\x50\x61\x73\x73\x77\x6F\x72\x64\x3A","\x70\x72\x6F\x6D\x70\x74","\x68\x72\x65\x66","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x75\x70\x63\x2E\x65\x64\x75","\x41\x63\x63\x65\x73\x73\x20\x64\x65\x6E\x69\x65\x64"];
-  const username=_0x3eaf[0];
-  const password=_0x3eaf[1];
-  const storageKey=_0x3eaf[2];
-  const storage=window[_0x3eaf[3]];
-  if(storage.getItem(storageKey)!=="true"){
-    const inputUser=prompt(_0x3eaf[4]);
-    const inputPass=prompt(_0x3eaf[5]);
-    if(inputUser!==username||inputPass!==password){
-      alert(_0x3eaf[9]);
-      window[_0x3eaf[7]]=_0x3eaf[8];
-    } else {
-      storage.setItem(storageKey,"true");
-    }
-  }
-})();
-</script>
+<p><img src="sport_images.jpg" class="full-width-img img-fluid"></p>
+<section id="metodología" class="level3">
+<h3 class="anchored" data-anchor-id="metodología">Metodología</h3>
+<ul>
+<li><p><strong>Definir el entorno:</strong> El partido se modelará como un entorno de AR donde los jugadores o el equipo completo representan el agente que toma decisiones (acciones).</p></li>
+<li><p><strong>Acciones:</strong> Las acciones pueden incluir estrategias de pase, tiro, cambios de formación, o decisiones defensivas.</p></li>
+<li><p><strong>Recompensas:</strong> Las recompensas se basarán en las métricas de éxito como goles anotados (en fútbol) o canastas (en baloncesto), posesión, intercepciones o recuperación de balón.</p></li>
+<li><p><strong>Simulaciones:</strong> Utilizar simulaciones de partidos para que el modelo aprenda las estrategias óptimas en diferentes situaciones del juego.</p></li>
+<li><p><strong>Validación:</strong> Evaluar el rendimiento del modelo en situaciones reales de partido, comparando las estrategias sugeridas con las que realmente se utilizaron.</p></li>
+</ul>
+</section>
+<section id="bbdd-necesarias" class="level3">
+<h3 class="anchored" data-anchor-id="bbdd-necesarias">BBDD necesarias</h3>
+<ul>
+<li><p><strong>Kaggle Football Dataset:</strong> Datos de eventos en partidos de fútbol, incluyendo pases, goles, tarjetas, etc.</p></li>
+<li><p><strong>NBA Stats:</strong> Información detallada de partidos de la NBA como posiciones de los jugadores, tiros realizados, asistencias, etc.</p></li>
+<li><p><strong>Opta Sports:</strong> Ofrece datos avanzados sobre los movimientos de jugadores y eventos en los partidos.</p></li>
+</ul>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="U3BvcnRzJTJDSUElMkNhcHJlbmRpemFqZSUyMHBvciUyMHJlZnVlcnpv" data-listing-date-sort="1748988000000" data-listing-file-modified-sort="1749031925973" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
-<div class="thumbnail">
-<p><a href="./propuestas/ControlCalidad/sportAnalytics1.html" class="no-external"></a></p><a href="./propuestas/ControlCalidad/sportAnalytics1.html" class="no-external">
-<p><img loading="lazy" src="./propuestas/ControlCalidad/sport_images.jpg" class="thumbnail-image"></p>
-</a><p><a href="./propuestas/ControlCalidad/sportAnalytics1.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./propuestas/ControlCalidad/sportAnalytics1.html" class="no-external">Sport Analytics: Optimización de estrategias de equipo en deportes</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./propuestas/ControlCalidad/sportAnalytics1.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('U3BvcnRz'); return false;">
-Sports
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('SUE='); return false;">
-IA
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('YXByZW5kaXphamUlMjBwb3IlMjByZWZ1ZXJ6bw=='); return false;">
-aprendizaje por refuerzo
-</div>
-</div>
-<div class="listing-description">
-<a href="./propuestas/ControlCalidad/sportAnalytics1.html" class="no-external">El objetivo de este trabajo es desarrollar un modelo de aprendizaje por refuerzo (AR) para optimizar las decisiones tácticas de un equipo durante un partido, con un enfoque en deportes como el fútbol o baloncesto. El sistema aprendería a partir de datos históricos de partidos y ajustaría las decisiones de ataque o defensa en función del contexto del partido: posición en el campo, tiempo restante, acciones del equipo contrario, etc.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./propuestas/ControlCalidad/sportAnalytics1.html" class="no-external">
-<div class="listing-date">
-Jun 4, 2025
-</div>
-<div class="listing-author">
-Sin Asignar
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="RmluYW5jaWFsJTJDSUElMkNvcHRpbWl6YWNpb24lMkNhcHJlbmRpemFqZSUyMHBvciUyMHJlZnVlcnpv" data-listing-date-sort="1748988000000" data-listing-file-modified-sort="1749033126137" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
-<div class="thumbnail">
-<p><a href="./propuestas/Financial_Contabilidad_VentaslAnalytics/financial1.html" class="no-external"></a></p><a href="./propuestas/Financial_Contabilidad_VentaslAnalytics/financial1.html" class="no-external">
-<p><img loading="lazy" src="./propuestas/Financial_Contabilidad_VentaslAnalytics/finanical_images.jpg" class="thumbnail-image"></p>
-</a><p><a href="./propuestas/Financial_Contabilidad_VentaslAnalytics/financial1.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./propuestas/Financial_Contabilidad_VentaslAnalytics/financial1.html" class="no-external">Finanzas: Optimización de portafolios de inversión</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./propuestas/Financial_Contabilidad_VentaslAnalytics/financial1.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW5jaWFs'); return false;">
-Financial
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('SUE='); return false;">
-IA
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('b3B0aW1pemFjaW9u'); return false;">
-optimizacion
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('YXByZW5kaXphamUlMjBwb3IlMjByZWZ1ZXJ6bw=='); return false;">
-aprendizaje por refuerzo
-</div>
-</div>
-<div class="listing-description">
-<a href="./propuestas/Financial_Contabilidad_VentaslAnalytics/financial1.html" class="no-external">Utilizar AR para construir un portafolio de inversión que se ajuste dinámicamente a las fluctuaciones del mercado, maximizando el rendimiento ajustado por riesgo.”</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./propuestas/Financial_Contabilidad_VentaslAnalytics/financial1.html" class="no-external">
-<div class="listing-date">
-Jun 4, 2025
-</div>
-<div class="listing-author">
-Sin Asignar
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="bWFya2V0aW5nJTJDSUElMkNhcHJlbmRpemFqZSUyMHBvciUyMHJlZnVlcnpv" data-listing-date-sort="1748988000000" data-listing-file-modified-sort="1749032789331" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="196">
-<div class="thumbnail">
-<p><a href="./propuestas/Marketing_RRHHAnalytics/marketingAnalytics1.html" class="no-external"></a></p><a href="./propuestas/Marketing_RRHHAnalytics/marketingAnalytics1.html" class="no-external">
-<p><img loading="lazy" src="./propuestas/Marketing_RRHHAnalytics/marketing_images.jpg" class="thumbnail-image"></p>
-</a><p><a href="./propuestas/Marketing_RRHHAnalytics/marketingAnalytics1.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./propuestas/Marketing_RRHHAnalytics/marketingAnalytics1.html" class="no-external">Marketing Digital: Optimización de campañas publicitarias en tiempo real</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./propuestas/Marketing_RRHHAnalytics/marketingAnalytics1.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('bWFya2V0aW5n'); return false;">
-marketing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('SUE='); return false;">
-IA
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('YXByZW5kaXphamUlMjBwb3IlMjByZWZ1ZXJ6bw=='); return false;">
-aprendizaje por refuerzo
-</div>
-</div>
-<div class="listing-description">
-<a href="./propuestas/Marketing_RRHHAnalytics/marketingAnalytics1.html" class="no-external">El propósito de este proyecto es crear un sistema basado en <strong>aprendizaje por refuerzo</strong> para ajustar en tiempo real las estrategias publicitarias de una empresa en varias plataformas (Google Ads, Facebook Ads, etc.), optimizando la asignación de presupuestos para maximizar el rendimiento (como el CTR, CPA o ROI).</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./propuestas/Marketing_RRHHAnalytics/marketingAnalytics1.html" class="no-external">
-<div class="listing-date">
-Jun 4, 2025
-</div>
-<div class="listing-author">
-Sin Asignar
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="U3BvcnRzJTJDSUElMkNhcHJlbmRpemFqZSUyMHBvciUyMHJlZnVlcnpv" data-listing-date-sort="1748988000000" data-listing-file-modified-sort="1749031925973" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
-<div class="thumbnail">
-<p><a href="./propuestas/SportAnalytics/sportAnalytics1.html" class="no-external"></a></p><a href="./propuestas/SportAnalytics/sportAnalytics1.html" class="no-external">
-<p><img loading="lazy" src="./propuestas/SportAnalytics/sport_images.jpg" class="thumbnail-image"></p>
-</a><p><a href="./propuestas/SportAnalytics/sportAnalytics1.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./propuestas/SportAnalytics/sportAnalytics1.html" class="no-external">Sport Analytics: Optimización de estrategias de equipo en deportes</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./propuestas/SportAnalytics/sportAnalytics1.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('U3BvcnRz'); return false;">
-Sports
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('SUE='); return false;">
-IA
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('YXByZW5kaXphamUlMjBwb3IlMjByZWZ1ZXJ6bw=='); return false;">
-aprendizaje por refuerzo
-</div>
-</div>
-<div class="listing-description">
-<a href="./propuestas/SportAnalytics/sportAnalytics1.html" class="no-external">El objetivo de este trabajo es desarrollar un modelo de aprendizaje por refuerzo (AR) para optimizar las decisiones tácticas de un equipo durante un partido, con un enfoque en deportes como el fútbol o baloncesto. El sistema aprendería a partir de datos históricos de partidos y ajustaría las decisiones de ataque o defensa en función del contexto del partido: posición en el campo, tiempo restante, acciones del equipo contrario, etc.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./propuestas/SportAnalytics/sportAnalytics1.html" class="no-external">
-<div class="listing-date">
-Jun 4, 2025
-</div>
-<div class="listing-author">
-Sin Asignar
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="U3BvcnRzJTJDSUElMkNhcHJlbmRpemFqZSUyMHBvciUyMHJlZnVlcnpv" data-listing-date-sort="1748988000000" data-listing-file-modified-sort="1749031925973" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
-<div class="thumbnail">
-<p><a href="./propuestas/SuppyChain/sportAnalytics1.html" class="no-external"></a></p><a href="./propuestas/SuppyChain/sportAnalytics1.html" class="no-external">
-<p><img loading="lazy" src="./propuestas/SuppyChain/sport_images.jpg" class="thumbnail-image"></p>
-</a><p><a href="./propuestas/SuppyChain/sportAnalytics1.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./propuestas/SuppyChain/sportAnalytics1.html" class="no-external">Sport Analytics: Optimización de estrategias de equipo en deportes</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./propuestas/SuppyChain/sportAnalytics1.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('U3BvcnRz'); return false;">
-Sports
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('SUE='); return false;">
-IA
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('YXByZW5kaXphamUlMjBwb3IlMjByZWZ1ZXJ6bw=='); return false;">
-aprendizaje por refuerzo
-</div>
-</div>
-<div class="listing-description">
-<a href="./propuestas/SuppyChain/sportAnalytics1.html" class="no-external">El objetivo de este trabajo es desarrollar un modelo de aprendizaje por refuerzo (AR) para optimizar las decisiones tácticas de un equipo durante un partido, con un enfoque en deportes como el fútbol o baloncesto. El sistema aprendería a partir de datos históricos de partidos y ajustaría las decisiones de ataque o defensa en función del contexto del partido: posición en el campo, tiempo restante, acciones del equipo contrario, etc.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./propuestas/SuppyChain/sportAnalytics1.html" class="no-external">
-<div class="listing-date">
-Jun 4, 2025
-</div>
-<div class="listing-author">
-Sin Asignar
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

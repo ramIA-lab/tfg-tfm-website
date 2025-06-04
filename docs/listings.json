@@ -8,9 +8,11 @@
   {
     "listing": "/propuestas.html",
     "items": [
-      "/propuestas/post-with-code/index.html",
-      "/propuestas/welcome/index.html",
-      "/propuestas/post1.html"
+      "/propuestas/ControlCalidad/sportAnalytics1.html",
+      "/propuestas/Financial_Contabilidad_VentaslAnalytics/financial1.html",
+      "/propuestas/Marketing_RRHHAnalytics/marketingAnalytics1.html",
+      "/propuestas/SportAnalytics/sportAnalytics1.html",
+      "/propuestas/SuppyChain/sportAnalytics1.html"
     ]
   }
 ]

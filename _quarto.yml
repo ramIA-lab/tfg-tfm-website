@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "TFG / TFM"
@@ -20,9 +21,6 @@ format:
     theme: cosmo
     css: styles.css  # si tienes tu tailwind procesado
     toc: true
-
-project:
-  output-dir: docs
 
 editor: visual
 

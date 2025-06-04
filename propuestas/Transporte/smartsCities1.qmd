@@ -1,0 +1,19 @@
+---
+title: "Smart Cities: Control adaptativo de semáforos para optimización del tráfico"
+description: Desarrollar un sistema basado en aprendizaje por refuerzo para controlar semáforos en una ciudad inteligente, con el objetivo de reducir los tiempos de espera y minimizar atascos en tiempo real.
+author: "Sin Asignar"
+date: "06/04/2025"
+categories: [smart cities, IA, aprendizaje por refuerzo, optimización]
+image: "smart city.jpg"
+---
+
+![](smart city.jpg){.full-width-img}
+
+### Metodología
+
+### BBDD necesarias
+
+-   Datos de tráfico en tiempo real (velocidad, densidad de vehículos).
+
+  -   **Ejemplo**: Datos públicos de movilidad urbana (por ej., en Madrid o Nueva York), Waze, OpenTraffic.
+

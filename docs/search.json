@@ -25,7 +25,7 @@
     "href": "propuestas.html",
     "title": "Propuestas de trabajos de final de estudios",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJun 2, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 30, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\nPost description\n\n\n\n\n\nMay 22, 2021\n\n\nFizz McPhee\n\n\n\n\n\n\nNo matching items"
+    "text": "Sport Analytics: Optimización de estrategias de equipo en deportes\n\n\n\n\n\n\nSports\n\n\nIA\n\n\naprendizaje por refuerzo\n\n\n\nEl objetivo de este trabajo es desarrollar un modelo de aprendizaje por refuerzo (AR) para optimizar las decisiones tácticas de un equipo durante un partido, con un enfoque en deportes como el fútbol o baloncesto. El sistema aprendería a partir de datos históricos de partidos y ajustaría las decisiones de ataque o defensa en función del contexto del partido: posición en el campo, tiempo restante, acciones del equipo contrario, etc.\n\n\n\n\n\nJun 4, 2025\n\n\nSin Asignar\n\n\n\n\n\n\n\n\n\n\n\n\nFinanzas: Optimización de portafolios de inversión\n\n\n\n\n\n\nFinancial\n\n\nIA\n\n\noptimizacion\n\n\naprendizaje por refuerzo\n\n\n\nUtilizar AR para construir un portafolio de inversión que se ajuste dinámicamente a las fluctuaciones del mercado, maximizando el rendimiento ajustado por riesgo.”\n\n\n\n\n\nJun 4, 2025\n\n\nSin Asignar\n\n\n\n\n\n\n\n\n\n\n\n\nMarketing Digital: Optimización de campañas publicitarias en tiempo real\n\n\n\n\n\n\nmarketing\n\n\nIA\n\n\naprendizaje por refuerzo\n\n\n\nEl propósito de este proyecto es crear un sistema basado en aprendizaje por refuerzo para ajustar en tiempo real las estrategias publicitarias de una empresa en varias plataformas (Google Ads, Facebook Ads, etc.), optimizando la asignación de presupuestos para maximizar el rendimiento (como el CTR, CPA o ROI).\n\n\n\n\n\nJun 4, 2025\n\n\nSin Asignar\n\n\n\n\n\n\n\n\n\n\n\n\nSport Analytics: Optimización de estrategias de equipo en deportes\n\n\n\n\n\n\nSports\n\n\nIA\n\n\naprendizaje por refuerzo\n\n\n\nEl objetivo de este trabajo es desarrollar un modelo de aprendizaje por refuerzo (AR) para optimizar las decisiones tácticas de un equipo durante un partido, con un enfoque en deportes como el fútbol o baloncesto. El sistema aprendería a partir de datos históricos de partidos y ajustaría las decisiones de ataque o defensa en función del contexto del partido: posición en el campo, tiempo restante, acciones del equipo contrario, etc.\n\n\n\n\n\nJun 4, 2025\n\n\nSin Asignar\n\n\n\n\n\n\n\n\n\n\n\n\nSport Analytics: Optimización de estrategias de equipo en deportes\n\n\n\n\n\n\nSports\n\n\nIA\n\n\naprendizaje por refuerzo\n\n\n\nEl objetivo de este trabajo es desarrollar un modelo de aprendizaje por refuerzo (AR) para optimizar las decisiones tácticas de un equipo durante un partido, con un enfoque en deportes como el fútbol o baloncesto. El sistema aprendería a partir de datos históricos de partidos y ajustaría las decisiones de ataque o defensa en función del contexto del partido: posición en el campo, tiempo restante, acciones del equipo contrario, etc.\n\n\n\n\n\nJun 4, 2025\n\n\nSin Asignar\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "propuestas/post-with-code/index.html",
@@ -40,5 +40,47 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "propuestas/SportAnalytics/sportAnalytics1.html",
+    "href": "propuestas/SportAnalytics/sportAnalytics1.html",
+    "title": "Sport Analytics: Optimización de estrategias de equipo en deportes",
+    "section": "",
+    "text": "Metodología\n\nDefinir el entorno: El partido se modelará como un entorno de AR donde los jugadores o el equipo completo representan el agente que toma decisiones (acciones).\nAcciones: Las acciones pueden incluir estrategias de pase, tiro, cambios de formación, o decisiones defensivas.\nRecompensas: Las recompensas se basarán en las métricas de éxito como goles anotados (en fútbol) o canastas (en baloncesto), posesión, intercepciones o recuperación de balón.\nSimulaciones: Utilizar simulaciones de partidos para que el modelo aprenda las estrategias óptimas en diferentes situaciones del juego.\nValidación: Evaluar el rendimiento del modelo en situaciones reales de partido, comparando las estrategias sugeridas con las que realmente se utilizaron.\n\n\n\nBBDD necesarias\n\nKaggle Football Dataset: Datos de eventos en partidos de fútbol, incluyendo pases, goles, tarjetas, etc.\nNBA Stats: Información detallada de partidos de la NBA como posiciones de los jugadores, tiros realizados, asistencias, etc.\nOpta Sports: Ofrece datos avanzados sobre los movimientos de jugadores y eventos en los partidos."
+  },
+  {
+    "objectID": "propuestas/Financia_Contabilidad_VentaslAnalytics/sportAnalytics1.html",
+    "href": "propuestas/Financia_Contabilidad_VentaslAnalytics/sportAnalytics1.html",
+    "title": "Sport Analytics: Optimización de estrategias de equipo en deportes",
+    "section": "",
+    "text": "Metodología\n\nDefinir el entorno: El partido se modelará como un entorno de AR donde los jugadores o el equipo completo representan el agente que toma decisiones (acciones).\nAcciones: Las acciones pueden incluir estrategias de pase, tiro, cambios de formación, o decisiones defensivas.\nRecompensas: Las recompensas se basarán en las métricas de éxito como goles anotados (en fútbol) o canastas (en baloncesto), posesión, intercepciones o recuperación de balón.\nSimulaciones: Utilizar simulaciones de partidos para que el modelo aprenda las estrategias óptimas en diferentes situaciones del juego.\nValidación: Evaluar el rendimiento del modelo en situaciones reales de partido, comparando las estrategias sugeridas con las que realmente se utilizaron.\n\n\n\nBBDD necesarias\n\nKaggle Football Dataset: Datos de eventos en partidos de fútbol, incluyendo pases, goles, tarjetas, etc.\nNBA Stats: Información detallada de partidos de la NBA como posiciones de los jugadores, tiros realizados, asistencias, etc.\nOpta Sports: Ofrece datos avanzados sobre los movimientos de jugadores y eventos en los partidos."
+  },
+  {
+    "objectID": "propuestas/ControlCalidad/sportAnalytics1.html",
+    "href": "propuestas/ControlCalidad/sportAnalytics1.html",
+    "title": "Sport Analytics: Optimización de estrategias de equipo en deportes",
+    "section": "",
+    "text": "Metodología\n\nDefinir el entorno: El partido se modelará como un entorno de AR donde los jugadores o el equipo completo representan el agente que toma decisiones (acciones).\nAcciones: Las acciones pueden incluir estrategias de pase, tiro, cambios de formación, o decisiones defensivas.\nRecompensas: Las recompensas se basarán en las métricas de éxito como goles anotados (en fútbol) o canastas (en baloncesto), posesión, intercepciones o recuperación de balón.\nSimulaciones: Utilizar simulaciones de partidos para que el modelo aprenda las estrategias óptimas en diferentes situaciones del juego.\nValidación: Evaluar el rendimiento del modelo en situaciones reales de partido, comparando las estrategias sugeridas con las que realmente se utilizaron.\n\n\n\nBBDD necesarias\n\nKaggle Football Dataset: Datos de eventos en partidos de fútbol, incluyendo pases, goles, tarjetas, etc.\nNBA Stats: Información detallada de partidos de la NBA como posiciones de los jugadores, tiros realizados, asistencias, etc.\nOpta Sports: Ofrece datos avanzados sobre los movimientos de jugadores y eventos en los partidos."
+  },
+  {
+    "objectID": "propuestas/Marketing_RRHHAnalytics/marketingAnalytics1.html",
+    "href": "propuestas/Marketing_RRHHAnalytics/marketingAnalytics1.html",
+    "title": "Marketing Digital: Optimización de campañas publicitarias en tiempo real",
+    "section": "",
+    "text": "Metodología\n\nDefinir el entorno: Cada plataforma publicitaria (Google, Facebook, Instagram, etc.) se modelará como un entorno donde el algoritmo toma decisiones sobre la cantidad de presupuesto a asignar.\nAcciones: Las acciones serían ajustes en las variables de la campaña, como el presupuesto diario, la orientación geográfica, los intereses del público, etc.\nRecompensas: Las recompensas serían métricas de rendimiento publicitario, como el click-through rate (CTR), costo por adquisición (CPA) o el retorno de la inversión publicitaria (ROI).\nExpliración vs. explotación: El sistema debería aprender a explorar nuevas configuraciones de campañas (nuevas audiencias, horas de publicación, etc.) mientras aprovecha las que ya se han demostrado exitosas.\nSimulaciones y datos históricos: Se pueden usar datos históricos para entrenar el modelo en primera instancia y luego probar en simulaciones o campañas reales a pequeña escala.\n\n\n\nBBDD necesarias\n\nGoogle Ads y Facebook Ads: Acceso a las métricas de rendimiento de campañas publicitarias.\nDatos de Kaggle: Hay varios datasets relacionados con la efectividad de campañas publicitarias online.\nPublic Data de plataformas de marketing: Algunas plataformas ofrecen datasets sobre campañas pasadas (CTR, CPA) para experimentación y aprendizaje."
+  },
+  {
+    "objectID": "propuestas/SuppyChain/sportAnalytics1.html",
+    "href": "propuestas/SuppyChain/sportAnalytics1.html",
+    "title": "Sport Analytics: Optimización de estrategias de equipo en deportes",
+    "section": "",
+    "text": "Metodología\n\nDefinir el entorno: El partido se modelará como un entorno de AR donde los jugadores o el equipo completo representan el agente que toma decisiones (acciones).\nAcciones: Las acciones pueden incluir estrategias de pase, tiro, cambios de formación, o decisiones defensivas.\nRecompensas: Las recompensas se basarán en las métricas de éxito como goles anotados (en fútbol) o canastas (en baloncesto), posesión, intercepciones o recuperación de balón.\nSimulaciones: Utilizar simulaciones de partidos para que el modelo aprenda las estrategias óptimas en diferentes situaciones del juego.\nValidación: Evaluar el rendimiento del modelo en situaciones reales de partido, comparando las estrategias sugeridas con las que realmente se utilizaron.\n\n\n\nBBDD necesarias\n\nKaggle Football Dataset: Datos de eventos en partidos de fútbol, incluyendo pases, goles, tarjetas, etc.\nNBA Stats: Información detallada de partidos de la NBA como posiciones de los jugadores, tiros realizados, asistencias, etc.\nOpta Sports: Ofrece datos avanzados sobre los movimientos de jugadores y eventos en los partidos."
+  },
+  {
+    "objectID": "propuestas/Financial_Contabilidad_VentaslAnalytics/financial1.html",
+    "href": "propuestas/Financial_Contabilidad_VentaslAnalytics/financial1.html",
+    "title": "Finanzas: Optimización de portafolios de inversión",
+    "section": "",
+    "text": "Metodología\n\n\nBBDD necesarias\n\nDatos históricos de precios de acciones y otros activos financieros.\n\nEjemplo: Yahoo Finance, Alpha Vantage, Quandl."
   }
 ]
