@@ -1,18 +1,10 @@
 [
   {
     "listing": "/defendidos.html",
-    "items": [
-      "/defendidos/post1.html"
-    ]
+    "items": []
   },
   {
     "listing": "/propuestas.html",
-    "items": [
-      "/propuestas/ControlCalidad/sportAnalytics1.html",
-      "/propuestas/Financial_Contabilidad_VentaslAnalytics/financial1.html",
-      "/propuestas/Marketing_RRHHAnalytics/marketingAnalytics1.html",
-      "/propuestas/SportAnalytics/sportAnalytics1.html",
-      "/propuestas/SuppyChain/sportAnalytics1.html"
-    ]
+    "items": []
   }
 ]
