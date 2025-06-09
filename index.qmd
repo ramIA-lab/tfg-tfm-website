@@ -70,6 +70,8 @@ Si estás interesado/a en optar a alguna de las propuestas, deberás rellenar el
 
 <label for="carrera">Estudios:</label> <select id="carrera" name="carrera" required> <option value="">Selecciona tus estudios</option> <option value="GEI">Grado en Ingenieria Informática (GEI)</option> <option value="GEST">Grado en Estadística (GEST)</option> <option value="GEST-GECO">Dobre grado en Estadística - Economia (GEST-ECO)</option> <option value="GCD">Grado en Ciencia de Datos (GCED)</option> <option value="GIA">Grado en Inteligencia Artificial (GIA)</option> <option value="MAI">Master en Inteligencia Artificial (MAI)</option> <option value="MEI">Master en ingenieria informática (MEI)</option> <option value="Otra">Otra</option> </select>
 
+<label for="semestre">Semestre::</label> <select id="semestre" name="semestre" required> <option value="">Selecciona el semestre que lo vas a realizar:</option> <option value="1rSemestre">1r semestre</option> <option value="2oSemestre">2º semestre</option></select>
+
 <label for="project">Propuesta de interés:</label> <input type="text" id="project" name="project" required>
 
 <label for="motivation">Motivación:</label>
