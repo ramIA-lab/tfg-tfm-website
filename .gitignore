@@ -1,10 +1,7 @@
 .Rhistory
 *.Rproj.user/
 .quarto/
-about_files/
-defendidos/
 images/
-propuestas/
 renv/
 tfg_web.Rproj
 styles.css
@@ -12,5 +9,12 @@ codigoPSWD
 
 tfg-web.Rproj
 
-/.quarto/
-.Rproj.user
+# Ignorar todo lo que esté en la carpeta propuestas en la raíz
+/propuestas/
+/defendidos/
+/about_files/
+
+# Pero NO ignorar (sí incluir) la carpeta docs/propuestas
+!/docs/propuestas/
+!/docs/defendidos/
+!/docs/about_files/
