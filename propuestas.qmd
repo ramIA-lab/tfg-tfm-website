@@ -1,7 +1,7 @@
 ---
 title: "Propuestas de trabajos de final de estudios"
 listing:
-  contents: propuestas/
+  contents: propuestas
   sort: "date desc"
   type: default
   categories: true
