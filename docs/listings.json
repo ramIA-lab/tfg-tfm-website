@@ -5,6 +5,11 @@
   },
   {
     "listing": "/propuestas.html",
-    "items": []
+    "items": [
+      "/propuestas/Financial_Contabilidad_VentaslAnalytics/financial1.html",
+      "/propuestas/Marketing_RRHHAnalytics/marketingAnalytics1.html",
+      "/propuestas/SportAnalytics/sportAnalytics1.html",
+      "/propuestas/Transporte/smartsCities1.html"
+    ]
   }
 ]
