@@ -8,9 +8,9 @@
 
 <meta name="author" content="Sin Asignar">
 <meta name="dcterms.date" content="2025-11-01">
-<meta name="description" content="Entrenar un agente RL que ajuste dinámicamente elementos de un anuncio (color, ritmo, sonido, imágenes, duración) en función de señales neurofisiológicas en tiempo real (EEG, eye-tracking, respuesta galvánica de la piel).">
+<meta name="description" content="Un sistema de aprendizaje por refuerzo que ajuste dinámicamente los estímulos de anuncios (color, sonido, ritmo, duración) en función de las reacciones neurofisiológicas en tiempo real de los usuarios.">
 
-<title>Neuromarketing: Optimización adaptativa de estímulos publicitarios basados en respuestas neurofisiológicas – TFG / TFM</title>
+<title>Optimización adaptativa de estímulos publicitarios basados en respuestas neurofisiológicas – TFG / TFM</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -123,8 +123,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#metodología" id="toc-metodología" class="nav-link active" data-scroll-target="#metodología">Metodología</a></li>
-  <li><a href="#bbdd-necesarias" id="toc-bbdd-necesarias" class="nav-link" data-scroll-target="#bbdd-necesarias">BBDD necesarias</a></li>
+  <li><a href="#descripción-del-problema" id="toc-descripción-del-problema" class="nav-link active" data-scroll-target="#descripción-del-problema">🎯 Descripción del problema:</a></li>
+  <li><a href="#metodología-rl" id="toc-metodología-rl" class="nav-link" data-scroll-target="#metodología-rl">⚙️ Metodología RL:</a></li>
+  <li><a href="#bases-de-datos" id="toc-bases-de-datos" class="nav-link" data-scroll-target="#bases-de-datos">🧩 Bases de datos:</a></li>
+  <li><a href="#variables" id="toc-variables" class="nav-link" data-scroll-target="#variables">📊 Variables:</a></li>
   </ul>
 </nav>
     </div>
@@ -133,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Neuromarketing: Optimización adaptativa de estímulos publicitarios basados en respuestas neurofisiológicas</h1>
+<h1 class="title">Optimización adaptativa de estímulos publicitarios basados en respuestas neurofisiológicas</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Neuromarketing</div>
     <div class="quarto-category">IA</div>
@@ -143,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Entrenar un agente RL que ajuste dinámicamente elementos de un anuncio (color, ritmo, sonido, imágenes, duración) en función de señales neurofisiológicas en tiempo real (EEG, eye-tracking, respuesta galvánica de la piel).
+    Un sistema de aprendizaje por refuerzo que ajuste dinámicamente los estímulos de anuncios (color, sonido, ritmo, duración) en función de las reacciones neurofisiológicas en tiempo real de los usuarios.
   </div>
 </div>
 
@@ -173,9 +175,16 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><img src="neuromarketing.jpg" class="full-width-img img-fluid"></p>
-<section id="metodología" class="level3">
-<h3 class="anchored" data-anchor-id="metodología">Metodología</h3>
+<section id="descripción-del-problema" class="level2">
+<h2 class="anchored" data-anchor-id="descripción-del-problema">🎯 Descripción del problema:</h2>
+<p>Las campañas publicitarias tradicionales usan análisis post-exposición. Sin embargo, las respuestas emocionales ocurren en milisegundos. Se necesita un sistema capaz de ajustar los estímulos mientras el usuario los percibe, optimizando atención y emoción.</p>
+</section>
+<section id="metodología-rl" class="level2">
+<h2 class="anchored" data-anchor-id="metodología-rl">⚙️ Metodología RL:</h2>
 <ul>
+<li><p><strong>Enfoque</strong>: <em>Deep Reinforcement Learning</em> (p.ej. DDPG o PPO).</p></li>
+<li><p>Entrenamiento con datos de EEG, eye-tracking y respuesta galvánica.</p></li>
+<li><p>Política que ajuste variables sensoriales del anuncio para maximizar engagement.</p></li>
 <li><p><strong>Estado</strong>: conjunto de métricas neurofisiológicas y atención del usuario.</p></li>
 <li><p><strong>Acciones</strong>: modificar variables visuales o auditivas del estímulo.</p></li>
 <li><p><strong>Recompensa</strong>: nivel de activación emocional y atención sostenida.</p></li>
@@ -184,8 +193,21 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Reto</strong>: requerimientos de hardware y modelado del ruido fisiológico.</p></li>
 </ul>
 </section>
-<section id="bbdd-necesarias" class="level3">
-<h3 class="anchored" data-anchor-id="bbdd-necesarias">BBDD necesarias</h3>
+<section id="bases-de-datos" class="level2">
+<h2 class="anchored" data-anchor-id="bases-de-datos">🧩 Bases de datos:</h2>
+<ul>
+<li>EEG o BCI datasets (DEAP, SEED).</li>
+<li>Bases de datos de eye-tracking (MIT Eye Tracking).</li>
+<li>Datos internos de testeo publicitario.</li>
+</ul>
+</section>
+<section id="variables" class="level2">
+<h2 class="anchored" data-anchor-id="variables">📊 Variables:</h2>
+<ul>
+<li><strong>Estado</strong>: señales EEG, ritmo cardíaco, posición ocular, nivel de atención.</li>
+<li><strong>Acciones</strong>: modificar color, sonido, brillo, ritmo, secuencia de imágenes.</li>
+<li><strong>Recompensa</strong>: picos de atención sostenida, emoción positiva o engagement.</li>
+</ul>
 
 
 </section>
