@@ -8,8 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      #- href: propuestas.qmd
-      #  text: Propuestas
+      - href: propuestas.qmd
+        text: Propuestas
       - href: defendidos.qmd
         text: Trabajos defendidos
       - href: about.qmd
