@@ -6,7 +6,6 @@ defendidos/
 images/
 propuestas/
 renv/
-*.qmd
 tfg_web.Rproj
 styles.css
 codigoPSWD

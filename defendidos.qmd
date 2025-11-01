@@ -1,0 +1,9 @@
+---
+title: "Trabajos defendidos"
+listing:
+  contents: defendidos
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true  
+---
